@@ -243,27 +243,7 @@ Free Bootstrap 5 HTML Template
                 </div>
  
             </section>
-            <script type="text/JAVASCRIPT">
-                window.addEventListener("scroll", reveal);
-                function  reveal() {
-                    var reveals = document.querySelectorAll('.reveal');
 
-                    for (var i = 0; i < reveals.length; i++){
-
-                        var windowheight = window.innerHeight;
-                        var revealtop = reveals[i].getBoundingClientRect().top;
-                        var revealpoint = 150;
-
-                        if (revealtop < windowheight - revealpoint){
-                            reveals[i].classList.add('active');
-                            
-                        }
-                        else{
-                            reveals[i].classList.remove('active');
-                        }
-                    }
-                }
-            </script>
 
             <section class="services section-padding" style="margin-top: 50px;">   
                 <div class="container reveal">
